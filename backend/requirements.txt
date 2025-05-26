@@ -1,0 +1,19 @@
+# Backend core
+fastapi
+uvicorn[standard]
+python-multipart
+
+# RAG + Embeddings
+openai
+langchain
+faiss-cpu
+sentence-transformers
+
+# File parsing
+PyPDF2
+
+# Utilities
+python-dotenv
+
+# Optional for local development
+httpx
