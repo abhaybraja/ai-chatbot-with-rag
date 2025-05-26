@@ -32,8 +32,8 @@ Try it locally:
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/yourusername/ai-chatbot-rag.git
-cd ai-chatbot-rag
+git clone https://github.com/abhaybraja/ai-chatbot-with-rag.git
+cd ai-chatbot-with-rag
 
 # 2. Start backend
 cd backend
