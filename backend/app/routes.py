@@ -1,7 +1,7 @@
 from fastapi import APIRouter, UploadFile, File, Form
 from app.rag_engine import ask_question, add_document
 
-router = APIRouter()
+router = APIRouter(tags=["upload", "chat"])
 
 @router.post("/upload")
 async def upload(file: UploadFile = File(...)):
