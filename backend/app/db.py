@@ -1,6 +1,6 @@
 from sentence_transformers import SentenceTransformer
 import faiss
-import os, pickle
+import pickle
 
 model = SentenceTransformer("all-MiniLM-L6-v2")
 index = faiss.IndexFlatL2(384)
